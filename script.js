@@ -10,6 +10,7 @@ function getDayInfo(date) {
     let finalWeeks = getWeekNum(date, curDate);
     console.log(finalWeeks)
 
+    text.textContent = '';
     text.innerHTML = writeDay(date) + ', ' + finalWeeks + ' неделя '
         + writeMonth(date) + ' ' + date.getFullYear() + ' года';
 }

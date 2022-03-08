@@ -1,0 +1,62 @@
+body {
+    font-family: "Calibri Light";
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+article {
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.in-form {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+label {
+    background-color: #b1d04a;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+input {
+    margin: 20px 20px 0 20px;
+    border-radius: 7px;
+    border: none;
+}
+
+#date {
+
+}
+
+#button {
+    background-color: #90d076;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+#output {
+    padding: 20px;
+    background-color: #043e85;
+    text-align: center;
+    border-radius: 20px;
+    width: 20vmax;
+    color: white;
+}
+
+#text {
+
+}

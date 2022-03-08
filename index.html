@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Информация о дате</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <main>
     <article>
         <form>
-            <label>Введите дату<input type="date"></label>
-            <label>Сегодняшняя дата</label><input type="button">
+            <label class="in-form">Введите дату<input type="date" id="date"></label>
+            <input class="in-form" type="button" id="button" value="Сегодняшняя дата">
         </form>
     </article>
 
     <article>
         <div id="output">
-            <p id="text"></p>
+            <p id="text">Здесь будет информация о выбранной дате</p>
         </div>
     </article>
 </main>
