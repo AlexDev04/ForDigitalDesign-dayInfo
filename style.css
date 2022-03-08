@@ -45,8 +45,12 @@ input {
     background-color: #90d076;
     cursor: pointer;
     border-radius: 15px;
+    transition: background-color .4s linear;
 }
 
+#button:hover {
+    background-color: #789C69;
+}
 
 #output {
     padding: 20px;
